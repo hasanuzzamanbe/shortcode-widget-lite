@@ -41,6 +41,7 @@ class ShortcodeAttrWidget extends \WP_Widget
         } else {
             $shortcode = __('', 'shortcodewidgetlite');
         }
+
         // Widget admin form
         ?>
         <p>
@@ -57,7 +58,8 @@ class ShortcodeAttrWidget extends \WP_Widget
         </p>
         <?php
     }
-    public function update($new_instance, $old_instance)
+
+    public function update($new_instance)
     {
         $instance = array();
         $instance['title'] = (!empty($new_instance['title'])) ? strip_tags($new_instance['title']) : '';
