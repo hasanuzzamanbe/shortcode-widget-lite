@@ -9,5 +9,8 @@ A WordPress plugin to use shortcode on widgets.
 2. Then go to Dashboard >> appearance >> widgets 
     You will see a new widget "shortcode-widget-lite" 
 
-For more details please visit to www.hasanuzzaman.com
-Any sugestion please <a href="https://hasanuzzaman.com/#textme"> Text me</a> .
+For more details please visit to https://hasanuzzaman.com/shortcode-widget-lite
+
+<a href="https://hasanuzzaman.com/shortcode-widget-lite">See Documentation</a> 
+
+For Any sugestion please <a href="https://hasanuzzaman.com/#textme"> Text me</a> .
