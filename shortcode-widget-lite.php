@@ -4,7 +4,7 @@
 Plugin Name: Shortcode Widget Lite
 Plugin URI:  https://hasanuzzaman.com/shortcodewidget
 Description: Show data from any shortcode in your widget.
-Version: 1.0.1
+Version: 1.0.0
 Author: Hasanuzzaman
 Author URI: https://hasanuzzaman.com
 License: A "Slug" license name e.g. GPL2
@@ -27,7 +27,7 @@ Text Domain: shortcodewidgetlite
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  *
- * Copyright 2019 WPManageNinja LLC. All rights reserved.
+ * Copyright 2019 Xaman LLC. All rights reserved.
  */
 
 if (!defined('ABSPATH')) {
