@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Shortcode Widget Lite
-Plugin URI:  https://hasanuzzaman.com/shortcodewidget
+Plugin URI:  https://hasanuzzaman.com/shortcode-widget-lite
 Description: Show data from any shortcode in your widget.
 Version: 1.0.0
 Author: Hasanuzzaman
@@ -51,7 +51,6 @@ if (!defined('SHORTCODELITE_VERSION')) {
                 register_widget('ShortcodeAttr\includes\ShortcodeAttrWidget');
             });
         }
-
     }
 
     add_action('plugins_loaded', function () {
