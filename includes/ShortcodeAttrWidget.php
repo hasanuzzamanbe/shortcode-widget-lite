@@ -52,9 +52,9 @@ class ShortcodeAttrWidget extends \WP_Widget
         </p>
         <p>
             <label for="<?php echo $this->get_field_id('shortcode'); ?>"><?php _e('Shortcode :'); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('shortcode'); ?>"
-                   name="<?php echo $this->get_field_name('shortcode'); ?>" type="textarea"
-                   value="<?php echo esc_attr($shortcode); ?>"/>
+            <textarea class="widefat" id="<?php echo $this->get_field_id('shortcode'); ?>"
+                      name="<?php echo $this->get_field_name('shortcode'); ?>"
+                      rows="10" cols="30"><?php echo esc_attr($shortcode); ?></textarea>
         </p>
         <?php
     }
